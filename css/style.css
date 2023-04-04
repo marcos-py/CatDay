@@ -46,19 +46,20 @@ p {
 }
 
 /*Banner*/
-.banner {
+.banner img{
     left: 75%;
     margin-top: 24px;
     border-radius: 10px 5%;
-    opacity: 0.6;
+    opacity: 0.5;
     box-shadow: 2px 2px 2px 1px rgb(252, 250, 250);
 }
 
 #dreamgirl {
     font-family: 'Amatic SC', cursive;
-    background-color: rgba(0,0,0,0.5);;
+    background-color: rgba(0,0,0,0.5);
     font-size: 28px;
-    left: 73%;
+    top: 5%;
+    left: 74%;
     color: #ebf43c;
     transform: rotate(-35deg);
     box-shadow: 5px 5px 10px;

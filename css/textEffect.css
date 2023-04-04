@@ -1,0 +1,24 @@
+.text-effect {
+    justify-content: center;
+    text-align: center;
+  }
+
+  strong {
+    color: #fb3688;
+    text-shadow: 0.1em 0.1em 0.2em black;
+  }
+  
+  span::after{
+    content: '|';
+    opacity: 1;
+    animation: pisca .7s infinite;
+  }
+  
+  @keyframes pisca {
+    0%,100% {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }    
+  }

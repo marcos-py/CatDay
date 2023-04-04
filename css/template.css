@@ -29,3 +29,34 @@ section {
         left: 1%;
     }
 }
+
+.fake-template img{
+    left: 8%;
+    margin-top: 2%;
+    border-radius: 10px;
+    filter: opacity(.4);
+    box-shadow: 2px 2px 2px 1px rgb(252, 250, 250);
+}
+
+.fake-template span {
+    color: #ebf43c;
+    font-size: 24px;
+    top: 40%;
+    left: 8.4%;
+}
+
+#fake-button {
+    position: fixed;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 28px;
+    top: 5%;
+    left: 6%;
+    color: #ebf43c;
+    transform: rotate(-35deg);
+    box-shadow: 5px 5px 10px;
+}
+
+#fake-button:hover {
+    color: #3878de;
+}
