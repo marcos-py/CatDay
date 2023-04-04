@@ -9,6 +9,7 @@
     <title>Sara Day</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/css/template.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/timeline.css" media="screen" />
 </head>
 
 <body>
@@ -19,8 +20,9 @@
 
     <!--Container com a estrutura principal do corpo-->
     <div class="conteiner">
-        <h1>Feliz dia da Sara!! <a href="#" style="text-decoration: none;" onclick="toggleCongratulations('congratulations-post')">💕</a></br>Love u <a href="#"
-                style="text-decoration: none;">😚</a></h1>
+        <h1>Feliz dia da Sara!! <a href="#" style="text-decoration: none;"
+                onclick="toggleCongratulations('congratulations-post')">💕</a></br>Love u <a href="#"
+                style="text-decoration: none;" onclick="toggleSecret('secret')">😚</a></h1>
 
         <!--Banner da Sara-->
         <div class="banner">
@@ -49,7 +51,7 @@
             <source src="/midia/o lobo pede.mp3" type="audio/mp3" />
         </audio>
         <!--Fim do Áudio do lobisomen pidão-->
-        
+
         <script src="/js/toggle.js" type="text/javascript"></script>
 
 
@@ -97,6 +99,46 @@
             </h3>
         </section>
         <!--Fim da Secção da DreamGirl Post-->
+
+        <!--Timeline-->
+        <div id="secret" style="display: none;">
+            <button id="timeline" onclick="toggleTimeline('timeline-post')">Quem disse que eu não</br>guardo
+                artefatos/datas
+                importantes?</button>
+            <!--Áudio da primeira vez que sara tocou ukelele pra mim-->
+            <audio id="sara-ukulele" controls="controls">
+                <source src="/midia/sara_ukulele.mp3" type="audio/mp3" />
+            </audio>
+            <!--Fim do Áudio da primeira vez que a sara tocou ukelele pra mim-->
+            <img id="clip" src="/midia/clip.png" width="30" height="30" />
+        </div>
+        <section id="timeline-post" style="display: none;">
+            <div id="date1">
+                <h2>27 de Maio de 2022</h2>
+                <h3>Primeira vez que saírmos juntos</h3>
+            </div>
+            <div id="date2">
+                <h2>08 de junho de 2022</h2>
+                <h3>Primeira fotinha que o marquinhos ganhou da Sara 😏</h3>
+            </div>
+            <div id="date3">
+                <h2>17 de junho de 2022</h2>
+                <h3>Primeira derrota de casalzin no lol 😣</h3>
+            </div>
+            <div id="date4">
+                <h2>24 de junho de 2022</h2>
+                <h3>Primeira play de Mine 🫠</h3>
+            </div>
+            <div id="date5">
+                <h2>9 de dezembro de 2022</h2>
+                <h3>Primeiro áudio da Sara</h3>
+            </div>
+            <div id="date6">
+                <h2>22 de Março de 2022</h2>
+                <h3>Primeiro "eu te amo" que a Sara disse pro Marquinhos 😏</h3>
+            </div>
+        </section>
+        <!--Fim da Timeline-->
 
     </div>
     <!--Fim do container com a estrutura principal do corpo-->

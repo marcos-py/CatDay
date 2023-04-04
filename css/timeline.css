@@ -1,0 +1,97 @@
+#timeline {
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0,0,0,0.5);;
+    font-size: 28px;
+    color: #FFFF00;
+    transform: rotate(-10deg);
+    top: 12%;
+    left: 5%;
+    box-shadow: 5px 5px 10px rgb(223, 21, 85);   
+    text-decoration: none;
+}
+
+#timeline:hover{
+    color: rgb(83, 235, 106);
+    box-shadow: 5px 5px 10px rgb(83, 235, 106);
+}
+
+#sara-ukulele {
+    transform: rotate(-10deg);
+    width: 250px;
+    height: 30px;
+    left: 8%;
+    top: 24%;
+}
+
+#clip {
+    position: fixed;
+    transform: rotate(-25deg);
+    top: 25%;
+    left: 5%;
+}
+
+#timeline-post {
+    top: 18%;
+}
+
+#timeline-post {
+    position: fixed;
+    margin: 90px auto;
+    width: 360px;
+    border-left: 2px solid #faf8f8;
+    padding: 0 20px 0 30px;
+    
+}
+
+#timeline-post h2 {
+    color: #18f54c;
+}
+
+#date1{
+    top: 35%;
+}
+#date1 h3{
+    top: 38%;
+    left: 2%;
+}
+
+#date2{
+    top: 45%;
+}
+
+#date2 h3{
+    top: 48%;
+    left: 2%;
+}
+
+#date3{
+    top: 55%;
+}
+#date3 h3{
+    top: 58%;
+    left: 2%;
+}
+
+#date4{
+    top: 65%;
+}
+#date4 h3{
+    top: 68%;
+    left: 2%;
+}
+
+#date5{
+    top: 75%;
+}
+#date5 h3{
+    top: 78%;
+    left: 2%;
+}
+
+#date6{
+    top: 85%;
+}
+#date6 h3{
+    top: 88%;
+    left: 2%;
+}
