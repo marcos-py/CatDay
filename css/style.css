@@ -96,3 +96,13 @@ p {
     left: 88%;
 }
 /*Fim da caixa de presentes*/
+
+/*Áudio do lobisom pidão*/
+#lobo-pede {
+    position: fixed;
+    width: 250px;
+    height: 28px;
+    left: 74%;
+    top: 93%;
+}
+/*Fim do Áudio do lobisomen pidão*/
