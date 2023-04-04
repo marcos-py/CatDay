@@ -19,17 +19,13 @@ body, html {
     margin-right: auto;
 }
 
-@media screen and (min-width: 300px){
-    h1 {
-        position: fixed;
-        font-size: 14px;
-        left: 42%;
-        top: 46%;
-        color: azure;
-    }
+p {
+    color: #f7f8f7;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
 }
 
-@media screen and (min-width: 1020px){
+@media screen and (min-width: 1000px){
     h1 {
         position: fixed;
         font-size: 36px;
@@ -49,14 +45,54 @@ body, html {
     }
 }
 
-@media screen and (min-width: 1600px){
-    h1 {
-        position: fixed;
-        font-size: 36px;
-        left: 45%;
-        top: 43%;
-        color: azure;
-    }
+/*Banner*/
+.banner {
+    left: 75%;
+    margin-top: 24px;
+    border-radius: 10px 5%;
+    opacity: 0.6;
+    box-shadow: 2px 2px 2px 1px rgb(252, 250, 250);
 }
 
+#dreamgirl {
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0,0,0,0.5);;
+    font-size: 28px;
+    left: 73%;
+    color: #ebf43c;
+    transform: rotate(-35deg);
+    box-shadow: 5px 5px 10px;
+}
 
+#dreamgirl:hover {
+    color: #f73c7d;
+}
+/*Fim do banner*/
+
+/*Caixa de presentes*/
+.box-present {
+    top: 58%;
+    left: 75%;
+}
+
+.box-present img {
+    top: 82%;
+    
+}
+
+#chocolate{
+    left: 73%;
+}
+
+#pix {
+    left: 78%;
+}
+
+#blouse-shein {
+    left: 83%;
+}
+
+#book {
+    left: 88%;
+}
+/*Fim da caixa de presentes*/
