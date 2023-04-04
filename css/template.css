@@ -1,0 +1,32 @@
+section {
+    color: azure;
+    top: 15%;
+    left: 3%;
+}
+
+@media screen and (min-width: 1000px){
+    section h2 {
+        font-size: 20px;
+        left: 1%;
+    }
+
+    section h3 {
+        font-size: 15px;
+        left: 0%;
+        top: 25%;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    section h2 {
+        font-size: 24px;
+        left: 2%;
+    }
+
+    section h3 {
+        font-size: 20px;
+        top: 25%;
+        left: 1%;
+    }
+}
+

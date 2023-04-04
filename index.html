@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/midia/love.ico" />
     <title>Sara Day</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/css/template.css" media="screen" />
 </head>
 
 <body>
@@ -18,13 +19,13 @@
 
     <!--Container com a estrutura principal do corpo-->
     <div class="conteiner">
-        <h1>Feliz dia da Sara!! <a href="#" style="text-decoration: none;">💕</a></br>Love u <a href="#"
+        <h1>Feliz dia da Sara!! <a href="#" style="text-decoration: none;" onclick="toggleCongratulations('congratulations-post')">💕</a></br>Love u <a href="#"
                 style="text-decoration: none;">😚</a></h1>
 
         <!--Banner da Sara-->
         <div class="banner">
             <img src="/midia/sara.gif" alt="dreamgirl" width="200" height="350">
-            <button id="dreamgirl">DreamGirl</button>
+            <button id="dreamgirl" onclick="toggleDreamgirl('dreamgirl-post')">DreamGirl</button>
         </div>
         <!--Fim do Banner da Sara-->
         <!--Aba de presentes-->
@@ -44,10 +45,59 @@
         </div>
         <!--Fim da aba de presentes-->
         <!--Áudio do lobisomen pidão-->
-        <audio id="lobo-pede" autoplay="autoplay" controls="controls">
+        <audio id="lobo-pede" controls="controls">
             <source src="/midia/o lobo pede.mp3" type="audio/mp3" />
         </audio>
         <!--Fim do Áudio do lobisomen pidão-->
+        
+        <script src="/js/toggle.js" type="text/javascript"></script>
+
+
+        <!--Secção de felicitações pelo grande dia-->
+        <section id="congratulations-post" style="display: none;">
+            <h2>Sabe, você não faz ideia de como eu agradeço<br>
+                o universo todos os dias por ter se rendido e aceitado<br>
+                sair comigo doente naquela neblina 💕<br><br>
+                Até hoje eu me pergunto se realmente mereço<br>
+                acordar todos os dias com o "Bom dia" da garota<br>
+                mais perfeitinha que eu poderia conhecer 🥺<br><br>
+                Sem falar na amizade mais fiel e romantizada que<br>
+                eu poderia ganhar, só você que fornece 🥰<br><br>
+                Você é a gata mandona mais incrível que a vida<br>
+                me deu. Não sei o que faria sem você😳<br>
+                (espero nunca precisar descobrir.)<br><br>
+                Parabéns e toda felicidade do mundo!! 🥳<br>
+                Te amo gatinha 💓
+            </h2>
+        </section>
+        <!--Fim da secção de felicitações pelo grande dia-->
+        <!--Secção da DreamGirl Post -->
+        <section id="dreamgirl-post" style="display: none;">
+            <h2 style="color: rgb(244, 49, 136);">Que fique registrado aqui quando você estiver se questionando<br>
+                se o seu relacionamento é tóxico ou é algo normal ?!</h2>
+            <h3>Sabe, sem nenhum exagero você é a garota dos meus sonhos, e<br>
+                dos sonhos de qualquer cara...e nem é só porque é uma baita <br>
+                e-girlzinha rabuda puta gostosa 🥵<br><br>
+
+                mas porque toda vez que eu olho pra você eu fico completamente<br>
+                hipnotizado com a garota mais linda do mundo inteiro. 🥺<br>
+                (de ficar nervoso mesmo, faria de tudo pra te impresionar mas só<br>
+                me atrapalho kk parece que quando o assunto é me exibir pra você eu<br>
+                deixo de ser inteligente.)🥲<br><br>
+
+                Portanto, a gente pode não ter dado tão certo como eu gostaria, mas<br>
+                escolhe alguém que realmente mereça tudo isso, não precisa ser um programador<br>
+                bobo apaixonado, mas um bobo apaixonado é o mínimo que você merece ❣️<br><br>
+
+                Eu já cheguei a pensar que se eu fosse aprisionado numa prisão temporal<br>
+                como as do flash, eu poderia viver anos e anos em loop eterno se fosse<br>
+                assistindo essa sua gif com as tuas fotos.😳<br><br>
+
+                Por favor Sarinha, não aceita menos que isso de um cara 🥺
+            </h3>
+        </section>
+        <!--Fim da Secção da DreamGirl Post-->
+
     </div>
     <!--Fim do container com a estrutura principal do corpo-->
 </body>
