@@ -2,8 +2,142 @@
     h1 {
         position: relative;
         font-size: 36px;
-        left: 40%;
-        top: 43%;
+        margin-left: 578px;
+        top: 300px;
         color: azure;
     }
+
+    p {
+        left: 24px;
+        margin-top: 24px;
+    }
+
+    /*Áudio do lobisom pidão*/
+    #lobo-pede {
+        left: 1030px;
+    }
+    /*Fim do Áudio do lobisomen pidão*/
+
+
+    .banner img {
+        left: 1050px;
+        top: 64px;
+    }
+
+    #dreamgirl {
+        top: 68px;
+        left: 1020px;
+    }
+
+    .fake-template img {
+        left: 128px;
+        top: -24px;
+       
+    }
+
+    #fake-button {
+        top: 74px;
+        left: 94px;
+       
+    }
+
+    .fake-template span {
+        font-size: 30px;
+        left: 136px;
+        top: 320px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        left: 56px;
+        top: 64px;
+    }
+
+    section h3 {
+        font-size: 20px;
+        left: 56px;
+        top: 144px;
+    }
+
+    #timeline {
+        top: 56px;
+        font-size: 30px;
+        left: 56px;
+       
+    }
+
+    #timeline-post h2 {
+        font-size: 36px;
+        color: #e63789;
+        left: 36px;
+    }
+
+    #timeline-post h3 {
+        font-size: 24px;
+
+    }
+
+    #date1 h2{
+        top: 25%;
+    }
+
+    #date1 h3 {
+        top: 30%;
+        left: 36px;
+    }
+
+    #date2 h2{
+        top: 35%;
+    }
+
+    #date2 h3 {
+        top: 40%;
+        left: 36px;
+    }
+
+    #date3 h2{
+        top: 49%;
+    }
+
+    #date3 h3 {
+        top: 54%;
+        left: 36px;
+    }
+
+    #date4 h2{
+        top: 59%;
+    }
+
+    #date4 h3 {
+        top: 64%;
+        left: 36px;
+    }
+
+    #date5 h2{
+        top: 69%;
+    }
+
+    #date5 h3 {
+        top: 74%;
+        left: 36px;
+    }
+
+    #date6 h2{
+        top: 79%;
+    }
+
+    #date6 h3 {
+        top: 84%;
+        left: 36px;
+    }
+
+    #date7 h2{
+        top: 89%;
+    }
+
+    #date7 h3 {
+        top: 94%;
+        left: 36px;
+    }
+    
 }

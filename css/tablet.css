@@ -2,7 +2,7 @@
     h1 {
         position: relative;
         font-size: 36px;
-        left: 412px;
+        margin-left: 412px;
         top: 330px;
         color: azure;
     }
@@ -38,7 +38,7 @@
     }
 
     #dreamgirl:hover {
-        color: #e63789;
+        color: #e63789
     }
    
     section {
@@ -118,8 +118,8 @@
     .fake-template span {
         position: fixed;
         color: #ebf43c;
-        font-size: 32px;
-        left: 48px;
+        font-size: 24px;
+        left: 64px;
         top: 380px;
     }
 
@@ -167,7 +167,7 @@
     }
 
     #timeline-post {
-        position: fixed;
+        position: relative;
         margin: 90px auto;
         width: 360px;
         border-left: 2px solid #faf8f8;
