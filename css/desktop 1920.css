@@ -1,0 +1,38 @@
+@media (min-width: 1800px){
+    h1 {
+        position: relative;
+        font-size: 48px;
+        margin-left: 788px;
+        top: 360px;
+    }
+
+    p {
+        font-size: 36px;
+        left: 24px;
+        margin-top: -38px;
+    }
+
+    .banner img {
+        left: 1418px;
+        top: 48px;
+    }
+
+    /*Áudio do lobisom pidão*/
+    #lobo-pede {
+        left: 1400px;
+        top: 740px;
+    }
+    /*Fim do Áudio do lobisomen pidão*/
+
+    .box-present img {
+        top: 688px;
+
+    }
+
+    #dreamgirl {
+        font-size: 36px;
+        top: 48px;
+        left: 1370px;
+    }
+
+}
