@@ -36,11 +36,11 @@
         transform: rotate(-35deg);
         box-shadow: 5px 5px 10px;
     }
-    
+
     #dreamgirl:hover {
         color: #e63789;
     }
-
+   
     section {
         text-align: left;
         color: azure;
@@ -118,9 +118,9 @@
     .fake-template span {
         position: fixed;
         color: #ebf43c;
-        font-size: 24px;
-        left: 38px;
-        top: 400px;
+        font-size: 32px;
+        left: 48px;
+        top: 380px;
     }
 
     #fake-button {

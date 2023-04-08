@@ -30,7 +30,7 @@
         <!--Banner da Sara-->
         <div class="banner">
             <img src="/midia/sara.gif" alt="dreamgirl" width="200" height="350">
-            <button id="dreamgirl" onclick="toggleDreamgirl('dreamgirl-post')">DreamGirl</button>
+            <button id="dreamgirl" onclick="toggleDreamgirl('dreamgirl-post')" onmouseover="mouseOver()" onmouseout="mouseOut()">DreamGirl😼</button>
         </div>
         <!--Fim do Banner da Sara-->
         <!--Aba de presentes-->
@@ -150,13 +150,19 @@
         </section>
         <!--Fim da Timeline-->
 
-
+        
+        <script src="/js/mouseover.js" type="text/javascript"></script>
 
         <!--Fake Template-->
         <div id="fake-template" class="fake-template">
+            <!--Áudio do cebolinha elogiando-->
+            <audio id="sara-gostosa" controls="controls" style="display: none;">
+                <source src="/midia/sara_gostosa.mp3" type="audio/mp3" />
+            </audio>
+            <!-- Fim do audio do cebolinha elogiando-->
             <img src="/midia/fake-template.jpg" alt="fake-template" width="200" height="350">
-            <button id="fake-button">MyDream😍</button>
-            <span>Sem dúvidas a mais<br><strong id="efeito"></strong></span>
+            <button id="fake-button" onmouseover="fakeMouseOver()"  onmouseout="fakeMouseOut()">MyDream😽</button>
+            <span><a href="#" onclick="toggleAudio('sara-gostosa')"><strong id="efeito"></strong></a></span>
         </div>
         <script src="/js/textEffect.js" type="text/javascript"></script>
         <!--Fim da Fake Template-->

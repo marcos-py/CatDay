@@ -17,6 +17,7 @@ const phrases = ['Gostosa 🥵',
 'Simpática 😚',
 'Belezura 🫣',
 'Querida 🥴',
+'Bunduda 🥵',
 'Admirável 😌',
 'Talentosa 😗',
 'Seduzente 😳',
@@ -70,7 +71,7 @@ function loop () {
   }
   const spedUp = Math.random() * (80 -50) + 50
   const normalSpeed = Math.random() * (300 -200) + 200
-  const time = isEnd ? 2000 : isDeleting ? spedUp : normalSpeed
+  const time = isEnd ? 500 : isDeleting ? spedUp : normalSpeed
   setTimeout(loop, time)
 }
 
