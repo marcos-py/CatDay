@@ -16,7 +16,7 @@ const phrases = ['Gostosa 🥵',
 'Elegante 🥺',
 'Simpática 😚',
 'Belezura 🫣',
-'Querida 🥴',
+'Querida 😺',
 'Bunduda 🥵',
 'Admirável 😌',
 'Talentosa 😗',
@@ -24,13 +24,13 @@ const phrases = ['Gostosa 🥵',
 'Perfeita 😍',
 'Estudiosa 🫠',
 'Gasosa 🤯',
-'Amorosa 🥳',
+'Amorosa 😻',
 'Atensiosa 🥺',
 'Empenhada 😳',
 'Reluzente 😵‍💫',
 'Fofa 🥺',
 'Delicia 🥵',
-'e Dengosa 😻'] // essas são as frases que irão aparecer na tag strong
+'Dengosaaa 😻'] // essas são as frases que irão aparecer na tag strong
 let i = 0
 let j = 0 
 let currentPhrase = []

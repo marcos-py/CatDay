@@ -35,4 +35,11 @@
         left: 1370px;
     }
 
+    section h3 {
+        text-align: center;
+        font-size: 23px;
+        left: 0px;
+        top: 160px;
+    }
+
 }
