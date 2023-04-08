@@ -1,0 +1,9 @@
+@media (min-width: 1200px) and (max-width: 1600px){
+    h1 {
+        position: relative;
+        font-size: 36px;
+        left: 40%;
+        top: 43%;
+        color: azure;
+    }
+}

@@ -1,3 +1,8 @@
+function toggleAudio(el){
+    const audio = document.getElementById(el);
+    audio.play();
+}
+
 function toggleCongratulations(el){
     document.getElementById('secret').style.display = 'none';
     document.getElementById('timeline-post').style.display = 'none';
@@ -51,4 +56,6 @@ function toggleSecret(el){
         document.getElementById('fake-template').style.display = 'block';
     }
 }
+
+
 
