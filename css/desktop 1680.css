@@ -1,0 +1,172 @@
+@media (min-width: 1600px) and (max-width: 1900px){
+    h1 {
+        position: relative;
+        font-size: 48px;
+        margin-left: 660px;
+        top: 340px;
+        color: azure;
+    }
+
+    p {
+        font-size: 36px;
+        left: 24px;
+        margin-top: -16px;
+    }
+
+    /*Áudio do lobisom pidão*/
+    #lobo-pede {
+        width: 280px;
+        height: 100px;
+        left: 1220px;
+        top: 740px;
+    }
+    /*Fim do Áudio do lobisomen pidão*/
+
+    .banner img {
+        width: 250px;
+        height: 400px;
+        left: 1230px;
+        top: 48px;
+    }
+
+    .box-present img {
+        top: 695px;
+
+    }
+
+    #chocolate {
+        left: 75%;
+    }
+
+    #pix {
+        left: 80%;
+    }
+
+    #blouse-shein {
+        left: 85%;
+    }
+
+    #book {
+        left: 90%;
+    }
+
+
+    #dreamgirl {
+        font-size: 32px;
+        top: 54px;
+        left: 1188px;
+    }
+
+    .fake-template img {
+        width: 250px;
+        height: 400px;
+        left: 94px;
+        top: -74px;
+    }
+
+    #fake-button {
+        font-size: 32px;
+        top: 56px;
+        left: 56px;
+    }
+
+    .fake-template span {
+        font-size: 36px;
+        left: 128px;
+        top: 344px;
+    }
+
+    section h2 {
+        text-align: center;
+        font-size: 30px;
+        left: 16px;
+        top: 48px;
+    }
+
+    section h3 {
+        text-align: center;
+        font-size: 24px;
+        left: 0px;
+        top: 160px;
+    }
+
+    #timeline {
+        font-size: 36px;
+        top: 108px;
+        left: 64px;
+    }
+
+    #timeline-post h2 {
+        font-size: 36px;
+        left: 36px;
+    }
+
+    #timeline-post h3 {
+        font-size: 28px;
+
+    }
+
+    #date1 h2{
+        top: 28%;
+    }
+
+    #date1 h3 {
+        top: 32%;
+        left: 36px;
+    }
+
+    #date2 h2{
+        top: 37%;
+    }
+
+    #date2 h3 {
+        top: 41%;
+        left: 36px;
+    }
+
+    #date3 h2{
+        top: 50%;
+    }
+
+    #date3 h3 {
+        top: 54%;
+        left: 36px;
+    }
+
+    #date4 h2{
+        top: 59%;
+    }
+
+    #date4 h3 {
+        top: 63%;
+        left: 36px;
+    }
+
+    #date5 h2{
+        top: 68%;
+    }
+
+    #date5 h3 {
+        top: 72%;
+        left: 36px;
+    }
+
+    #date6 h2{
+        top: 77%;
+    }
+
+    #date6 h3 {
+        top: 81%;
+        left: 36px;
+    }
+
+    #date7 h2{
+        top: 86%;
+    }
+
+    #date7 h3 {
+        top: 90%;
+        left: 36px;
+    }
+
+}
