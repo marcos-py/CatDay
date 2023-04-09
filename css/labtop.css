@@ -1,4 +1,4 @@
-@media (min-width: 1400px){
+@media (min-width: 1200px){
     h1 {
         position: fixed;
         font-size: 36px;
@@ -10,11 +10,11 @@
     p {
         position: fixed;
         left: 77%;
-        top: 53%;
+        top: 59%;
     }
 
     #lobo-pede {
-        top: 84%;
+        top: 92%;
         left: 76%;
     }
 
@@ -51,7 +51,7 @@
 
     .box-present img {
         position: fixed;
-        top: 74%;
+        top: 82%;
 
     }
 
