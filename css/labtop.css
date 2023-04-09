@@ -1,32 +1,32 @@
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1400px){
     h1 {
         position: relative;
         font-size: 36px;
-        margin-left: 578px;
-        top: 300px;
+        margin-left: 614px;
+        top: 320px;
         color: azure;
     }
 
     p {
         left: 24px;
-        margin-top: 24px;
+        margin-top: 16px;
     }
 
     /*Áudio do lobisom pidão*/
     #lobo-pede {
-        left: 1030px;
+        left: 1080px;
     }
     /*Fim do Áudio do lobisomen pidão*/
 
 
     .banner img {
-        left: 1050px;
+        left: 1100px;
         top: 64px;
     }
 
     #dreamgirl {
         top: 68px;
-        left: 1020px;
+        left: 1064px;
     }
 
     .fake-template img {
@@ -45,6 +45,22 @@
         font-size: 30px;
         left: 136px;
         top: 320px;
+    }
+
+    #chocolate {
+        left: 75%;
+    }
+
+    #pix {
+        left: 80%;
+    }
+
+    #blouse-shein {
+        left: 85%;
+    }
+
+    #book {
+        left: 90%;
     }
 
     section h2 {
@@ -69,7 +85,7 @@
     }
 
     #timeline-post h2 {
-        font-size: 36px;
+        font-size: 30px;
         color: #e63789;
         left: 36px;
     }
@@ -84,7 +100,7 @@
     }
 
     #date1 h3 {
-        top: 30%;
+        top: 29%;
         left: 36px;
     }
 
@@ -93,7 +109,7 @@
     }
 
     #date2 h3 {
-        top: 40%;
+        top: 39%;
         left: 36px;
     }
 
@@ -102,7 +118,7 @@
     }
 
     #date3 h3 {
-        top: 54%;
+        top: 53%;
         left: 36px;
     }
 
@@ -111,7 +127,7 @@
     }
 
     #date4 h3 {
-        top: 64%;
+        top: 63%;
         left: 36px;
     }
 
@@ -120,7 +136,7 @@
     }
 
     #date5 h3 {
-        top: 74%;
+        top: 73%;
         left: 36px;
     }
 
@@ -129,7 +145,7 @@
     }
 
     #date6 h3 {
-        top: 84%;
+        top: 83%;
         left: 36px;
     }
 
@@ -138,7 +154,7 @@
     }
 
     #date7 h3 {
-        top: 94%;
+        top: 93%;
         left: 36px;
     }
     
