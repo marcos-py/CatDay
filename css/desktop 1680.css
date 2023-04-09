@@ -1,4 +1,4 @@
-@media (min-width: 1500px){
+@media (min-width: 1600px){
     h1 {
         position: relative;
         font-size: 40px;
@@ -13,12 +13,10 @@
         margin-top: 12px;
     }
 
-    /*Áudio do lobisom pidão*/
     #lobo-pede {
         left: 1170px;
         top: 678px;
     }
-    /*Fim do Áudio do lobisomen pidão*/
 
     .banner img {
         width: 230px;

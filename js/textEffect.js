@@ -30,7 +30,7 @@ const phrases = ['Gostosa 🥵',
 'Reluzente 😵‍💫',
 'Fofa 🥺',
 'Delicia 🥵',
-'Dengosaaa 😻'] // essas são as frases que irão aparecer na tag strong
+'Dengosaaaaa 😻'] // essas são as frases que irão aparecer na tag strong
 let i = 0
 let j = 0 
 let currentPhrase = []

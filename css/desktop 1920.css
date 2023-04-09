@@ -1,6 +1,6 @@
 @media (min-width: 1900px){
     h1 {
-        position: relative;
+        position: fixed;
         font-size: 48px;
         margin-left: 788px;
         top: 360px;
@@ -9,7 +9,7 @@
     p {
         font-size: 36px;
         left: 24px;
-        margin-top: -38px;
+        margin-top: -40px;
     }
 
     .banner img {
