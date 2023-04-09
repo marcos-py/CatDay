@@ -19,6 +19,264 @@ body, html {
     margin-right: auto;
 }
 
-p {
-    top: 80%;
+h1 {
+    position: fixed;
+    font-size: 36px;
+    margin-left: 43%;
+    top: 42%;
+    color: azure;
 }
+
+p {
+    position: fixed;
+    color: #f7f8f7;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    top: 58%;
+}
+
+
+/*Banner*/
+.banner img {
+    position: fixed;
+    width: 200px;
+    height: 350px;
+    margin-left: 75%;
+    top: 4%;
+    border-radius: 10px 5%;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 1px rgb(252, 250, 250);
+}
+
+#dreamgirl {
+    position: fixed;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    top: 5%;
+    left: 73%;
+    color: #ebf43c;
+    transform: rotate(-35deg);
+    box-shadow: 5px 5px 10px;
+}
+
+#dreamgirl:hover {
+    color: #e63789
+}
+
+section {
+    position: fixed;
+    text-align: center;
+    color: azure;
+    top: 124px;
+}
+
+section h2 {
+    position: fixed;
+    font-size: 26px;
+    left: 4%;
+    top: 6%;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 23px;
+    left: 1%;
+    top: 16%;
+}
+
+/*Fim do banner*/
+
+/*Caixa de presentes*/
+.box-present {
+    top: 58%;
+    left: 75%;
+}
+
+.box-present img {
+    position: fixed;
+    top: 80%;
+
+}
+
+#chocolate {
+    position: fixed;
+    left: 72%;
+    margin-top: 8px;
+}
+
+#pix {
+    position: fixed;
+    left: 77%;
+    margin-top: 8px;
+}
+
+#blouse-shein {
+    position: fixed;
+    left: 83%;
+    margin-top: 8px;
+}
+
+#book {
+    position: fixed;
+    left: 88%;
+    margin-top: 8px;
+}
+
+/*Fim da caixa de presentes*/
+
+/*Áudio do lobisom pidão*/
+#lobo-pede {
+    position: fixed;
+    width: 230px;
+    height: 28px;
+    left: 74%;
+    top: 92%;
+}
+
+/*Fim do Áudio do lobisomen pidão*/
+
+/*Fundo falso*/
+.fake-template img {
+    position: fixed;
+    left: 12%;
+    top: 4%;
+    border-radius: 10px;
+    filter: opacity(.4);
+    box-shadow: 2px 2px 2px 1px rgb(252, 250, 250);
+}
+
+.fake-template span {
+    position: fixed;
+    color: #ebf43c;
+    font-size: 28px;
+    left: 13%;
+    top: 39%;
+}
+
+#fake-button {
+    position: fixed;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    top: 5%;
+    left: 10%;
+    color: #ebf43c;
+    transform: rotate(-35deg);
+    box-shadow: 5px 5px 10px;
+}
+
+#fake-button:hover {
+    color: #e63789;
+}
+
+/*Fim do Fundo falso*/
+
+
+/*Timeline*/
+#timeline {
+    position: fixed;
+    color: #faf8f8;
+    font-size: 26px;
+    top: 15%;
+    transform: rotate(-10deg);
+    left: 5%;
+}
+
+#timeline:hover {
+    color: #e63789;
+}
+
+#ukulele-post{
+    color: #faf8f8;
+    font-size: 24px;
+    top: 250px;
+    left: 32px;
+}
+
+#ukulele-post:hover{
+    color: #e63789;
+}
+
+#timeline-post {
+    position: fixed;
+    margin: 90px auto;
+    width: 360px;
+    border-left: 2px solid #faf8f8;
+    padding: 0 20px 0 30px;
+
+}
+
+#timeline-post h2 {
+    font-size: 22px;
+    color: #e63789;
+    left: 6%;
+}
+
+#timeline-post h3 {
+    font-size: 20px;
+}
+
+#date1 h2{
+    top: 30%;
+}
+
+#date1 h3 {
+    top: 33%;
+    left: 6%;
+}
+
+#date2 h2{
+    top: 38%;
+}
+
+#date2 h3 {
+    top: 41%;
+    left: 6%;
+}
+
+#date3 h2{
+    top: 49%;
+}
+
+#date3 h3 {
+    top: 52%;
+    left: 6%;
+}
+
+#date4 h2{
+    top: 57%;
+}
+
+#date4 h3 {
+    top: 60%;
+    left: 6%;
+}
+
+#date5 h2{
+    top: 65%;
+}
+
+#date5 h3 {
+    top: 68%;
+    left: 6%;
+}
+
+#date6 h2{
+    top: 73%;
+}
+
+#date6 h3 {
+    top: 76%;
+    left: 6%;
+}
+
+#date7 h2{
+    top: 81%;
+}
+
+#date7 h3 {
+    top: 84%;
+    left: 6%;
+}
+/*Fim da timeline*/
