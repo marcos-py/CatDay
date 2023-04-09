@@ -177,7 +177,7 @@ section h3 {
 #timeline {
     position: fixed;
     color: #faf8f8;
-    font-size: 26px;
+    font-size: 28px;
     top: 15%;
     transform: rotate(-10deg);
     left: 5%;
@@ -208,7 +208,7 @@ section h3 {
 }
 
 #timeline-post h2 {
-    font-size: 22px;
+    font-size: 23px;
     color: #e63789;
     left: 6%;
 }
